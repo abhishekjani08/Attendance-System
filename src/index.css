@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  background: hsl(0, 100%, 50%);
+  background: -webkit-linear-gradient(90deg, #ff0000, #ffffff);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff0000 ),
+    to(#ffffff)
+  );
+  background: -webkit-linear-gradient(left,  #ff0000, #ffffff);
+  background: linear-gradient(180deg,  #b1b7f0, #0e4dd6);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  color: #607d8b;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+ul {
+  margin: 0;
+  padding: 0px 5px 0px 0px;
+  list-style: none;
+}
